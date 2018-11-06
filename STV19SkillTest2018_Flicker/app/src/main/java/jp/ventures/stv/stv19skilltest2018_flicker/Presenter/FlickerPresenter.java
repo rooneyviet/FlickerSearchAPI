@@ -33,7 +33,7 @@ public class FlickerPresenter implements FlickerView.FlickerAPIResultListener, I
 
     @Override
     public void notFoundAny() {
-        flickerActivityListener.setErrorMessage("音楽が見つかりません");
+        flickerActivityListener.setErrorMessage("該当する写真がありません。検索ワードを変更してお試しください。");
     }
 
     @Override
